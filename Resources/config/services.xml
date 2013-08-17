@@ -17,4 +17,13 @@
         </service>
     </services>
     -->
+
+    <services>
+        <service id="marduke182.twig.extension" class="Marduke182\TwigBundle\Twig\Extension\ControllerActionExtension">
+            <tag name="twig.extension" />
+            <call method="setRequest">
+                <argument type="service" id="request" on-invalid="null" strict="false" />
+            </call>
+        </service>
+    </services>
 </container>

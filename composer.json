@@ -3,12 +3,12 @@
     "type": "symfony-bundle",
     "description": "Make Extensions to twig Template",
     "keywords": ["twig", "extension"],
-    "homepage": "http://github.com/NewbridgeGreen/TestBundle",
+    "homepage": "https://github.com/marduke182/twig-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@company.com"
+            "name": "Jesús Quintana",
+            "email": "jesus.quintana@synergy-gb.com"
         }
     ],
     "require": {
