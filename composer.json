@@ -1,5 +1,5 @@
 {
-    "name": "marduke182/twig-bundle",
+    "name": "marduke182/twig-extension-bundle",
     "type": "symfony-bundle",
     "description": "Make Extensions to twig Template",
     "keywords": ["twig", "extension"],
