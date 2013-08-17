@@ -12,5 +12,6 @@ env:
   - SYMFONY_VERSION=dev-master
 
 before_script:
+  - curl -s http://getcomposer.org/installer | php
   - composer require symfony/framework-bundle:${SYMFONY_VERSION} --no-update
   - composer update --dev
